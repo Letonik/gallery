@@ -1,0 +1,37 @@
+$white: #fff;
+$body: #fedcc0;
+
+.photographer {
+  font-family: 'Playfair', cursive;
+  position: relative;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+  .ava, .carousel {
+    width: 50%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .ava {
+    cursor: pointer;
+    position: relative;
+    h2, h1 {
+      position: absolute;
+      z-index: 3;
+      right: 50px;
+    }
+    h1 {
+      bottom: 100px;
+      color: #fedcc0;
+      font-size: 50px;
+    }
+    h2 {
+      bottom: 50px;
+      color: $white;
+      font-size: 40px;
+    }
+  }
+}
